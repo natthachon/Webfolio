@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Silkscreen', cursive;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+    background-image: url(./2068563.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: aquamarine;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+.btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+.ct img{
+    display: inline;
+    background-color: aliceblue;
+    margin-left: 110px;
+    position: absolute;
+    top: 20vh;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(161, 53, 250, 0.295);
+    width: fit-content;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 45vh;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #fad44c;
+}
+.ct1 img{
+    position: absolute;
+    left: 80vh;
+    top: 20vh;
+}
+.h{
+    position: absolute;
+    left: 67.5vh;
+    top: 46vh;
+}
+.ct2 img{
+    position: absolute;
+    left: 142vh;
+    top: 19vh;
+}
+.i{
+    position: absolute;
+    left:130vh;
+    top: 46vh;
+}
+.ct3 img{
+    position: absolute;
+    left: 14vh;
+    top: 57vh;
+}
+.j{
+    position: absolute;
+    left: -1vh;
+    top: 82vh;
+}
+.ct4 img{
+    position: absolute;
+    left: 80vh;
+    top: 57vh;
+}
+.k{
+    position: absolute;
+    left: 67.5vh;
+    top: 83vh;
+}
+.ct5 img{
+    position: absolute;
+    left: 144vh;
+    top: 57vh;
+}
+.l{
+    position: absolute;
+    left:130vh;
+    top: 83vh;
+}
+/* Certificate Under */
+.about{
+	height: 100vh;
+	width: 100%;
+    background-image: url(./2068563.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.about h2{
+    font-size: 40px;
+    text-align: center;
+    color: #fad44c;
+}
+.ct6 img{
+    position: absolute;
+    left: 11vh;
+    top: 109.5vh;
+}
+.q{
+    position: absolute;
+    left: -2vh;
+    top: 140vh;
+}
+.ct7 img{
+    position: absolute;
+    left: 142vh;
+    top: 110vh;
+}
+.w{
+    position: absolute;
+    left: 128vh;
+    top: 140vh;
+}
+.ct8 img{
+    position: absolute;
+    left: 78vh;
+    top: 110vh;
+}
+.e{
+    position: absolute;
+    left: 64vh;
+    top: 140vh;
+}
+.ct9 img{
+    position: absolute;
+    left: 13.5vh;
+    top: 157vh;
+}
+.r{
+    position: absolute;
+    left: -0.5vh;
+    top: 184vh;
+}
+.ct10 img{
+    position: absolute;
+    left: 80vh;
+    top: 157vh;
+}
+.t{
+    position: absolute;
+    left: 67vh;
+    top: 184vh;
+}
+.ct11 img{
+    position: absolute;
+    left: 143vh;
+    top: 157vh;
+}
+.y{
+    position: absolute;
+    left: 130vh;
+    top: 184vh;
+}
